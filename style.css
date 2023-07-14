@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet');
+html {
+  max-width: 100vw;
+  width: auto;
+}
+.ico {
+  border-radius: 50%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-image: url(image/background_web.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#profilepicture,
+img {
+  text-align: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin: 20px auto 40px;
+}
+
+#warpper-content {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#text {
+  font-family: "Nunito", sans-serif;
+}
+
+#links,
+.link {
+  padding-left: 10px;
+  padding-top: 40px;
+  font-size: 3.5rem;
+  color: #000;
+}
+a:hover {
+  color: #a76f6f;
+  font-size: smaller;
+}
+
+#copyright {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  top: 90%;
+  right: 40%;
+  left: 40%;
+}
+
+/* 
+font-family: 'Noto Serif', serif;
+font-family: 'Itim', cursive;
+*/
